@@ -1,2 +1,2 @@
 # proyecto
-libreria tipo boostrap
+libreria tipo 
