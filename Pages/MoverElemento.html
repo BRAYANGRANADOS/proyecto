@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/Styles/styles.css">
+</head>
+<body>
+
+    <div class="Navbar-1">
+        <nav>
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="javascript:void(0)" onclick="openNav()">DOCUMENTACIÓN</a></li>
+                <li class="icon-container">
+                    <img src="../img/KO.png" alt="Icono" class="icon" />
+                    <a href="https://github.com/medranosteven/libreria_street_fighter.git">GITHUB</a>
+                </li>
+                <li><a href="#">DESCARGAR</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="mySidebar" class="sidebar txt-Roboto">
+        <a href="javascript:void(0)" class="closebtn texto-parrafo" onclick="closeNav()">
+            <i class="fa-regular fa-rectangle-xmark"></i>
+        </a>
+        <a class="texto parrafo" style="color: black;" href="#">
+            <i class="fa-solid fa-screwdriver-wrench"></i> CREAR COMPONENTES
+        </a>
+        <a class="texto-parrafo" href="../Pages/button.html">
+            <i class="fa-solid fa-toggle-on"></i> Botones
+        </a>
+        <a class="texto-parrafo" href="#">
+            <i class="fa-solid fa-text-slash"></i> Formularios
+        </a>
+        <a class="texto-parrafo" href="../Pages/tarjetas.html">
+            <i class="fa-solid fa-address-card"></i> Tarjetas
+        </a>
+        <a class="texto-parrafo" href="../Pages/alertas.html">
+            <i class="fa-solid fa-circle-exclamation"></i> Alertas
+        </a>
+        <a class="texto-parrafo" href="../Pages/Navbar.html">
+            <i class="fa-solid fa-bars"></i> Barras de Navegacion
+        </a>
+        <a class="texto-parrafo" href="../Pages/Badge.html">
+            <i class="fa-solid fa-certificate"></i> Badges
+        </a>
+        <a class="texto-parrafo" href="/Pages/Container.html">
+            <i class="fa-solid fa-box"></i> Contenedores
+        </a>
+        <a class="texto parrafo" style="color: black;" href="#">
+            <i class="fa-solid fa-toolbox"></i> CLASES UTILITARIAS
+        </a>
+        <a class="texto-parrafo" href="../Pages/aspecto-texto.html">
+            <i class="fa-solid fa-italic"></i> Modificar aspecto del texto
+        </a>
+        <a class="texto-parrafo" href="../Pages/sombras.html">
+            <i class="fa-solid fa-circle-half-stroke"></i> Crear sombras
+        </a>
+        <a class="texto-parrafo" href="../Pages/margenes-bordes.html">
+            <i class="fa-solid fa-border-top-left"></i> Crear margenes, paddings
+        </a>
+        <a class="texto-parrafo" href="../Pages/MoverElemento.html">
+            <i class="fa-solid fa-up-down-left-right"></i> Mover elementos
+        </a>
+        <a class="texto-parrafo" href="../Pages/Redondeo.html">
+            <i class="fa-solid fa-circle"></i> Redondear elementos
+        </a>
+        <a class="texto-parrafo" href="../Pages/Ocultar.html">
+            <i class="fa-solid fa-eye-slash"></i> Ocultar elementos
+        </a>
+        <a class="texto-parrafo" href="../Pages/colors.html">
+            <i class="fa-solid fa-palette"></i> Colores de fondo para elementos
+        </a>
+
+    </div>
+  <main class="txt-Montserrat">
+
+    <h1>Mover Elementos en la Pantalla: Funcion Flex</h1>
+    <h2>Directions</h2>
+    <p>Direcciones: Esta variable define una lista de posibles valores para la propiedad flex-direction, que determina la dirección en la que los elementos flexibles se colocan dentro del contenedor flex. </p>
+    <p> <span class="badge danger">flex-row</span> Los elementos se colocan en filas, desde el inicio hasta el final del contenedor.</p>
+    <div class="flex flex-row flex-gap-1">
+        <div class="badge primary">Elemento 1</div>
+        <div class="badge primary">Elemento 2</div>
+        <div class="badge primary">Elemento 3</div>
+    </div>
+
+    <p> <span class="badge danger">flex-column</span> Los elementos se colocan en columnas, desde el inicio hasta el final del contenedor.</p>
+
+    <div class="flex flex-column flex-gap-2">
+        <div class="badge secondary">Elemento 1</div>
+        <div class="badge secondary">Elemento 2</div>
+        <div class="badge secondary">Elemento 3</div>
+    </div>
+
+    <p> Tambien puedes usar las clases: <span class="badge danger">flex-row-reverse</span> y  <span class="badge danger">flex-column-reverse</span> para filas y columnas respectivamente, pero en orden inverso al valor predeterminado.</p>
+
+    <h2>Justifies</h2>
+    <p>Justifies: Esta variable define una lista de posibles valores para la propiedad justify-content, que alinea los elementos flexibles a lo largo del eje principal del contenedor flex. </p>
+
+  </main>
+
+  <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("principal").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("principal").style.marginLeft = "0";
+        }
+    </script>
+    <footer class="txt-Roboto texto-parrafo">
+        <img src="/img/capcom.png" style="width: 8%; height: auto;">
+        <p>&copy; 2024 Biblioteca de Estilos Street Fighter II. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
