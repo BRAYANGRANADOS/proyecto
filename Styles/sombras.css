@@ -1,0 +1,23 @@
+.shadow-1 {
+  box-shadow: 0 4px 8px rgb(43, 42, 54);
+  transition: box-shadow 0.3s ease;
+}
+.shadow-1:hover {
+  box-shadow: 0 8px 16px rgb(43, 42, 54);
+}
+
+.shadow-2 {
+  box-shadow: 0 4px 8px rgb(92, 145, 185);
+  transition: box-shadow 0.3s ease;
+}
+.shadow-2:hover {
+  box-shadow: 0 8px 16px rgb(92, 145, 185);
+}
+
+.shadow-3 {
+  box-shadow: 0 4px 8px rgb(229, 52, 78);
+  transition: box-shadow 0.3s ease;
+}
+.shadow-3:hover {
+  box-shadow: 0 8px 16px rgb(229, 52, 78);
+}/*# sourceMappingURL=sombras.css.map */

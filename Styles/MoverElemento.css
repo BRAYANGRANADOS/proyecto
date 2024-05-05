@@ -1,0 +1,153 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-justify-flex-start {
+  justify-content: flex-start;
+}
+
+.flex-justify-flex-end {
+  justify-content: flex-end;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
+.flex-justify-space-around {
+  justify-content: space-around;
+}
+
+.flex-align-stretch {
+  align-items: stretch;
+}
+
+.flex-align-flex-start {
+  align-items: flex-start;
+}
+
+.flex-align-flex-end {
+  align-items: flex-end;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-align-baseline {
+  align-items: baseline;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+.flex-gap-0 {
+  gap: 0rem;
+}
+
+.flex-gap-row-0 {
+  row-gap: 0rem;
+}
+
+.flex-gap-column-0 {
+  -moz-column-gap: 0rem;
+       column-gap: 0rem;
+}
+
+.flex-gap-1 {
+  gap: 1rem;
+}
+
+.flex-gap-row-1 {
+  row-gap: 1rem;
+}
+
+.flex-gap-column-1 {
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
+.flex-gap-2 {
+  gap: 2rem;
+}
+
+.flex-gap-row-2 {
+  row-gap: 2rem;
+}
+
+.flex-gap-column-2 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
+.flex-gap-3 {
+  gap: 3rem;
+}
+
+.flex-gap-row-3 {
+  row-gap: 3rem;
+}
+
+.flex-gap-column-3 {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+
+.flex-gap-4 {
+  gap: 4rem;
+}
+
+.flex-gap-row-4 {
+  row-gap: 4rem;
+}
+
+.flex-gap-column-4 {
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
+}
+
+.flex-gap-5 {
+  gap: 5rem;
+}
+
+.flex-gap-row-5 {
+  row-gap: 5rem;
+}
+
+.flex-gap-column-5 {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}/*# sourceMappingURL=MoverElemento.css.map */
